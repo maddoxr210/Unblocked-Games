@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Tools</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #20232a;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: white;
+            font-weight: bold;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            max-width: 600px;
+            width: 100%;
+        }
+        .box {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box:hover {
+            background-color: #61dafb;
+            transform: scale(1.05);
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo" src="https://clshawks.com/images/logos/site/site.png?height=84&mode=crop&quality=80" alt="Site Logo">
+    <div class="title">Google Tools</div>
+    <div class="container">
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+            <div class="box">Gmail</div>
+        </a>
+        <a href="https://classroom.google.com/" target="_blank">
+            <div class="box">Classroom</div>
+        </a>
+        <a href="https://docs.google.com/document/u/0/?pli=1&tgif=c" target="_blank">
+            <div class="box">Docs</div>
+        </a>
+        <a href="https://docs.google.com/presentation/u/0/?tgif=d" target="_blank">
+            <div class="box">Slides</div>
+        </a>
+        <a href="https://docs.google.com/spreadsheets/u/0/?tgif=d" target="_blank">
+            <div class="box">Sheets</div>
+        </a>
+        <a href="https://sites.google.com/u/0/?authuser=0&pli=1&tgif=d" target="_blank">
+            <div class="box">Sites</div>
+        </a>
+    </div>
+</body>
+</html>
