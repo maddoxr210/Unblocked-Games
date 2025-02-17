@@ -1,0 +1,207 @@
+<html lang="en"><head>
+		<meta charset="utf-8">
+
+		<link rel="icon" href="https://slowroads.io/favicon.svg">
+		<!-- <link rel="icon" href="/favicon_dark.svg" type="image/x-icon" media="(prefers-color-scheme: dark)"> -->
+		<!-- <link rel="icon" href="/favicon_light.svg" type="image/x-icon" media="(prefers-color-scheme: light)"> -->
+		<link rel="preload" href="/fonts/Sono.ttf" as="font" type="font/ttf" crossorigin="">
+		<link rel="preload" href="/fonts/Space.ttf" as="font" type="font/ttf" crossorigin="">
+
+		<link rel="manifest" href="/manifest.json">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="title" content="Slow Roads">
+		<meta name="description" content="Endless driving zen">
+		<meta name="color-scheme" content="light only">
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://slowroads.io/">
+		<meta property="og:title" content="Slow Roads">
+		<meta property="og:description" content="Endless driving zen">
+		<meta property="og:image" content="/meta-2.0.0.jpg">
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://slowroads.io/">
+		<meta property="twitter:title" content="Slow Roads">
+		<meta property="twitter:description" content="Endless driving zen">
+		<meta property="twitter:image" content="/meta-2.0.0.jpg">
+
+		<title>&hairsp;s&hairsp;l&hairsp;o&hairsp;w&nbsp;&nbsp;r&hairsp;o&hairsp;a&hairsp;d&hairsp;s</title>
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+			  if (window.location.hash) {
+				// Check if the URL contains a hash
+				const metas = document.querySelectorAll('meta[property^="og:"], meta[name^="twitter:"]');
+
+				// Remove or modify the necessary meta tags
+				metas.forEach(meta => {
+				  	meta.parentNode.removeChild(meta);
+				});
+			  }
+			});
+
+		</script>
+
+		<style>
+
+			:root {
+				--sr-white: #F4F2ED;
+
+				--sr-white-0: #F4F2ED00;
+				--sr-white-25: #F4F2ED40;
+				--sr-white-50: #F4F2ED80;
+				--sr-white-75: #F4F2EDC0;
+
+				--sr-primary: #343c3e;
+				--sr-primary-0: #343c3e00;
+				--sr-primary-25: #343c3e40;
+				--sr-primary-50: #343c3e80;
+				--sr-primary-75: #343c3eC0;
+
+				--sr-secondary: #D2D1CD;
+				--sr-secondary-0: #D2D1CD00;
+				--sr-secondary-25: #D2D1CD40;
+				--sr-secondary-50: #D2D1CD80;
+				--sr-secondary-75: #D2D1CDC0;
+
+				--sr-warn: #ff992b;
+
+				--sr-dark: #444444;
+				--sr-darker: #333;
+				--sr-black: #222222;
+
+				--sr-bg: #F4F2ED;
+				--sr-lowlight: #343c3e80;
+
+				color-scheme: light only;
+			}
+
+			@font-face {
+				font-family: Sono;
+				src: url(/fonts/Sono.ttf);
+				font-variant: slashed-zero;
+			}
+
+			@font-face {
+				font-family: Space;
+				src: url(/fonts/Space.ttf);
+				font-variant: slashed-zero;
+			}
+
+			/* width */
+			::-webkit-scrollbar {
+				width: 0.6rem;
+			}
+
+			/* Track */
+			::-webkit-scrollbar-track {
+				background: var(--sr-primary-25);
+			}
+
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: var(--sr-primary-50);
+			}
+
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+				background: var(--sr-primary);
+			}
+
+			* {
+				margin: 0;
+				padding: 0;
+				scroll-behavior: smooth !important;
+		    }
+
+			body {
+				overflow: hidden;
+				font-family: Space, Helvetica, sans-serif;
+			}
+
+			img {
+				-webkit-user-drag: none;
+				-khtml-user-drag: none;
+				-moz-user-drag: none;
+				-o-user-drag: none;
+				user-drag: none;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			html {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				font-size: 16px;
+			}
+
+			@media screen and (orientation: landscape) and (max-width: 1361px)  {
+				html {
+					font-size: 14px;
+				}
+			}
+
+			@media screen and (orientation: landscape) and (max-width: 1180px) {
+				html {
+					font-size: 12px;
+				}
+			}
+
+			@media screen and (orientation: portrait) {
+				html {
+					font-size: 12px;
+				}
+			}
+
+		</style>
+
+		<script src="/alea.min.js"></script><style type="text/css" id="operaUserStyle"></style>
+
+		
+		<link rel="modulepreload" href="/_app/immutable/entry/start.b0a6326b.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.6cda8fd7.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.96f92c21.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.85bbc95f.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.17fcad52.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.946b5041.js">
+	<style type="text/css"></style><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/nodes/0.35cae92c.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/nodes/1.a345f2e3.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/nodes/2.79613f77.js"><link rel="stylesheet" href="https://slowroads.io/_app/immutable/assets/2.c1fd901a.css"></head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents"><div id="splash" class="svelte-1ub18gl"><div id="splash-fixed" class="svelte-1ub18gl"><div id="splash-main" class="svelte-1ub18gl"><div id="splash-title" class="svelte-1ub18gl"><img class="splash-logo svelte-1ub18gl" src="/img/logo-stacked.svg" alt=""> <div class="splash-subtitle svelte-1ub18gl">endless driving zen</div> <div id="splash-begin" class="svelte-1ub18gl">continue</div></div> <div class="splash-smallprint splash-lr svelte-1ub18gl">v2.0.0 <br>
+                This work is licensed under a <a rel="license noopener noreferrer" class="splash-smallprint-link svelte-1ub18gl" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0 International License</a></div> <div class="splash-old svelte-1ub18gl"><span style="font-size: 1.2rem; color: var(--sr-primary)">Prefer the old version?</span> <br> <span style="font-size: 0.9rem">Find it at <a class="splash-smallprint-link svelte-1ub18gl" href="https://old.slowroads.io">old.slowroads.io</a></span></div> <div class="splash-smallprint splash-ll svelte-1ub18gl">from <a class="splash-smallprint-link svelte-1ub18gl" href="https://topograph.io" target="_blank" rel="noopener noreferrer">topograph.io</a> © 2025</div> <div class="splash-main-buttons svelte-1ub18gl"><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/TNf9bBrZmR" alt="" class="splash-main-button svelte-1ub18gl"><img src="/img/icon_discord.svg" alt="" class="splash-main-button-icon svelte-1ub18gl"> <br>
+                    Join the Discord</a> <a href="#about" class="splash-main-button svelte-1ub18gl" style="padding-top: 2rem;"><span style="font-size: 1.5rem">About</span> <br> <span style="font-size: 2rem">▾</span></a> <a target="_blank" rel="noopener noreferrer" href="https://store.steampowered.com/app/3431300/Slow_Roads/" alt="" class="splash-main-button splash-main-button-highlight svelte-1ub18gl"><div class="splash-main-steam-notice svelte-1ub18gl">Store page is live!</div> <img src="/img/icon_steam.svg" alt="" class="splash-main-button-icon svelte-1ub18gl"> <br>
+                    Wishlist on Steam</a></div></div> <div id="about" class="svelte-1ub18gl"><div class="splash-body-section svelte-1ub18gl" style="background: none;"><div class="splash-body-wrapper svelte-1ub18gl" style="margin: 5rem 0"><div class="splash-blurb-corner-tl svelte-1ub18gl"></div> <div class="splash-blurb-corner-tr svelte-1ub18gl"></div> <div class="splash-blurb svelte-1ub18gl"><strong>Slow Roads</strong> is a casual driving game all about finding peace in a long, scenic journey. No ads, no interruptions, and no end to the road. Set the weather to suit your mood, throw on some music, and <strong>just drive.</strong></div> <div class="splash-blurb-corner-bl svelte-1ub18gl"></div> <div class="splash-blurb-corner-br svelte-1ub18gl"></div></div></div> <div class="splash-body-section svelte-1ub18gl"><div class="splash-body-wrapper svelte-1ub18gl"><div class="splash-body-header svelte-1ub18gl">Welcome to Slow Roads 2.0</div> <div class="splash-body-text svelte-1ub18gl">When Slow Roads first released in October 2022 it was more of a tech demo more than a game, and it showed. Aside from the simple graphics, the codebase was messy, performance was poor, and adding new features was a nightmare. So, since 2023 I've been gradually re-writing the entire engine from the ground up to be more stable, better optimised, and much easier to work with. And I changed a few textures.</div> <div class="splash-body-subheader svelte-1ub18gl">New in version 2.0:</div> <div class="splash-body-bullets svelte-1ub18gl"><div class="splash-body-bullet svelte-1ub18gl">A new environment engine which loads faster, runs better, crashes less often, and is more flexible</div> <div class="splash-body-bullet svelte-1ub18gl">Overhauled graphics with new textures, shaders, and lighting effects</div> <div class="splash-body-bullet svelte-1ub18gl">Single-track roads, plus a new road width setting</div> <div class="splash-body-bullet svelte-1ub18gl">3D trees and improved foliage systems</div> <div class="splash-body-bullet svelte-1ub18gl">Mobile support</div></div> <br> <div class="splash-body-text svelte-1ub18gl">At long last, I feel that version 2.0 realises of the original vision I had for what Slow Roads could be— but these roads are endless, and this is just the beginning. There's much more that I want to do, and with the new engine I'm looking to pick up the pace. From this point on I'll be aiming for small, weekly updates, gradually building out all the new locations, vehicles, and environmental details I've been planning since day one. If you want to follow along, make sure you <a class="splash-body-link svelte-1ub18gl" href="https://discord.gg/TNf9bBrZmR" target="_blank" rel="noopener noreferrer">join the Discord</a> and <a class="splash-body-link svelte-1ub18gl" href="https://bsky.app/profile/slowroads.io" target="_blank" rel="noopener noreferrer">follow slowroads.io on Bluesky!</a></div></div></div> <div class="splash-body-section svelte-1ub18gl" style="background: linear-gradient(135deg, rgb(35, 56, 72), rgb(35, 38, 44), rgb(35, 38, 44));"><div class="splash-body-wrapper svelte-1ub18gl" style="color: var(--sr-secondary)"><div class="splash-body-header svelte-1ub18gl" style="color: #6dcff6; text-shadow: 0 0 1rem #6dcff688">Coming soon to Steam!
+                        <a class="splash-visit-steam svelte-1ub18gl" target="_blank" rel="noopener noreferrer" href="https://store.steampowered.com/app/3431300/Slow_Roads/"><img src="/img/icon_steam_white.svg" class="splash-body-steam-icon svelte-1ub18gl" alt="">
+                            Visit store page</a></div> <div class="splash-body-text svelte-1ub18gl">Slow Roads is fundamentally designed as a lightweight web experience, and that won't be changing, but there's a lot of potential to go beyond the limits of the browser.
+                        Over the years I've also had a lot of requests for features which would break the core design of Slow Roads as a simple, quick get-away— and which would demand more time than I can give as a hobby.
+                        That's why I'm soon to be releasing an expanded version on Steam, featuring all the things that wouldn't belong in the web.</div> <div class="splash-body-subheader svelte-1ub18gl" style="color: #6dcff6;">Targeted for the first release:</div> <div class="splash-body-bullets svelte-1ub18gl"><div class="splash-body-bullet svelte-1ub18gl">A scene editor which lets you craft your ideal road</div> <div class="splash-body-bullet svelte-1ub18gl">Vehicle customisation, including colours and engine sounds</div> <div class="splash-body-bullet svelte-1ub18gl">Expanded vehicle configuration settings for more control over the physics</div> <div class="splash-body-bullet svelte-1ub18gl">Profiles for saving progress and customisations</div> <div class="splash-body-bullet svelte-1ub18gl">Achievements</div> <div class="splash-body-bullet svelte-1ub18gl">High-resolution assets</div></div> <div class="splash-body-text svelte-1ub18gl">This first release is cautiously targeted for <strong>April 2025</strong> - the goal is to get a simple version out soon and then, like the web version, continue to iterate long into the future.</div> <div class="splash-body-subheader svelte-1ub18gl" style="color: #6dcff6;">Longer-term targets:</div> <div class="splash-body-bullets svelte-1ub18gl"><div class="splash-body-bullet svelte-1ub18gl">Extra graphics settings, including added features like post-processing effects</div> <div class="splash-body-bullet svelte-1ub18gl">Extra locations and vehicles not available in the web version</div> <div class="splash-body-bullet svelte-1ub18gl">Multiplayer game modes</div> <div class="splash-body-bullet svelte-1ub18gl">Enhanced scene editing tools for full world customisation</div></div> <div class="splash-body-text svelte-1ub18gl">If this sounds good to you, please support me by <a class="splash-body-link svelte-1ub18gl" href="https://store.steampowered.com/app/3431300/Slow_Roads/" target="_blank" rel="noopener noreferrer">wishlisting Slow Roads on Steam!</a></div></div></div> <div class="splash-body-section svelte-1ub18gl" style="background: var(--sr-primary-50);"><div class="splash-body-wrapper svelte-1ub18gl"><div class="splash-body-header svelte-1ub18gl">Development Roadmap</div> <div class="splash-body-subheader svelte-1ub18gl">Next up in 2.0.1:</div> <div class="splash-body-bullets svelte-1ub18gl"><div class="splash-body-bullet svelte-1ub18gl">Stability upgrades and bug fixes from 2.0.0</div> <div class="splash-body-bullet svelte-1ub18gl">Small environmental detail upgrades</div> <div class="splash-body-bullet svelte-1ub18gl">Small UI/UX upgrades</div></div> <div class="splash-body-subheader svelte-1ub18gl">Near-term goals:</div> <div class="splash-body-bullets svelte-1ub18gl"><div class="splash-body-bullet svelte-1ub18gl">Detailed vehicle interiors, including passenger seats and dashboard displays</div> <div class="splash-body-bullet svelte-1ub18gl">Vehicle physics review, especially for the bike</div> <div class="splash-body-bullet svelte-1ub18gl">Development of a third location</div> <div class="splash-body-bullet svelte-1ub18gl">Rainy weather effects</div> <div class="splash-body-bullet svelte-1ub18gl">Time-of-day rework to allow for daylight cycles and directional lighting</div> <div class="splash-body-bullet svelte-1ub18gl">Continued environmental detail upgrades, such as wildlife, buildings, and improved ground shaders</div> <div class="splash-body-bullet svelte-1ub18gl">Continued performance optimisation</div></div> <div class="splash-body-text svelte-1ub18gl"><a class="splash-body-link svelte-1ub18gl" href="https://discord.gg/TNf9bBrZmR" target="_blank" rel="noopener noreferrer">Join the Discord</a> or <a class="splash-body-link svelte-1ub18gl" href="https://bsky.app/profile/slowroads.io" target="_blank" rel="noopener noreferrer">follow slowroads.io on Bluesky</a> to keep updated and share feedback!</div></div></div> <div class="splash-body-section svelte-1ub18gl" style="background: none;"><div class="splash-body-wrapper svelte-1ub18gl"><div class="splash-body-header svelte-1ub18gl">FAQ</div> <div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">Why do I get such a poor performance?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">How much will the Steam version cost?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">When will the Steam version be released?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">Will the web version still be freely available?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">What's the background on the game's development?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">How and why is the game free, and without ads?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">Why can I drive through trees, or glitch into the sky by going backwards?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">Why are all the cars electric?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">I have a great idea for a feature, how can I tell you?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">Who's the developer?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">Can I contribute to the development of the game?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">Will you make it open-source?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">Which tech/language was used to make Slow Roads?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">How does the environment generation algorithm work?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-9okg1g"><div class="faq-q svelte-9okg1g">When SR3?<div class="faq-expand svelte-9okg1g"><span style="transform: rotate(45deg);">+</span></div></div> </div></div></div> <div class="splash-body-section svelte-1ub18gl" style="background: var(--sr-primary-50);"><div class="splash-body-wrapper svelte-1ub18gl"><div class="splash-body-header svelte-1ub18gl">Contact</div> <div class="splash-body-text svelte-1ub18gl" style="text-align:center; user-select: default;">Email
+                        <br> <span style="font-size: 1.2rem; font-weight: 400; color: var(--sr-white)">hello@slowroads.io</span> <br> <br>
+                        Discord
+                        <br> <span style="font-size: 1.2rem; font-weight: 400; color: var(--sr-white)"><a class="splash-body-link svelte-1ub18gl" href="https://discord.gg/TNf9bBrZmR" target="_blank" rel="noopener noreferrer">Join the server here</a></span> <br> <br>
+                        Bluesky
+                        <br> <span style="font-size: 1.2rem; font-weight: 400; color: var(--sr-white)"><a class="splash-body-link svelte-1ub18gl" href="https://bsky.app/profile/slowroads.io" target="_blank" rel="noopener noreferrer">Follow slowroads.io here</a></span></div></div></div> <div class="splash-body-section svelte-1ub18gl" style="background: none;"><div class="splash-body-wrapper svelte-1ub18gl"><div class="splash-body-header svelte-1ub18gl">Attributions</div> <div class="splash-body-text svelte-1ub18gl" style="text-align: center">Rendering library - <a class="splash-body-link svelte-1ub18gl" href="https://threejs.org/">three.js</a> <br>
+                        Brand design - <a class="splash-body-link svelte-1ub18gl" href="https://benj-design.com">benj-design.com</a> <br>
+                        Off-world textures - <a class="splash-body-link svelte-1ub18gl" href="https://mars.nasa.gov/mars2020/multimedia/raw-images/">Nasa Perseverance</a> <br>
+                        Brake audio - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/WavJunction.com/sounds/456764/">WavJunction.com on freesound.org</a> <br>
+                        Ambient audio - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/InspectorJ/sounds/401543/">InspectorJ on freesound.org</a> <br>
+                        Tyre audio - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/fractanimal/sounds/614627/">fractanimal on freesound.org</a> <br>
+                        Gravel audio - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/seth-m/sounds/341069/">seth-m on freesound.org</a> <br>
+                        Boost audio - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/YleArkisto/sounds/342892/">YleArkisto on freesound.org</a> <br>
+                        Suspension audio - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/ingudios/sounds/119468/">ingudios on freesound.org</a> <br>
+                        Collision sounds - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/jakobthiesen/sounds/174836/">jakobthiesen on freesound.org</a> <br>
+                        Collision sounds - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/jakobthiesen/sounds/174837/">jakobthiesen on freesound.org</a> <br>
+                        Collision sounds - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/SubwaySandwitch420/sounds/538947/">SubwaySandwitch420 on freesound.org</a> <br>
+                        Barrier scrape sound - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/eyenorth/sounds/464846/">eyenorth on freesound.org</a> <br>
+                        Misc sound effects - <a class="splash-body-link svelte-1ub18gl" href="https://freesound.org/people/HECKFRICKER/sounds/625312/">HECKFRICKER on freesound.org</a> <br></div></div></div> <div class="splash-body-section svelte-1ub18gl" style="background: var(--sr-primary);"><div class="splash-body-wrapper svelte-1ub18gl"><div class="splash-body-header svelte-1ub18gl" style="font-size: 1rem">Thank you for playing</div></div></div></div> </div></div>  <div id="main" tabindex="-1" autofocus="" class="svelte-157999b"><div id="ui-fixed" class="svelte-157999b">   <div id="ui-settings" class="svelte-1rgrtl6" style=""><div id="ui-settings-header" class="svelte-1rgrtl6 ui-settings-hidden"><div class="settings-header svelte-1rgrtl6" style="flex-basis: 20%;">HOME</div> <div class="settings-header svelte-1rgrtl6 settings-selected">GAMEPLAY</div> <div class="settings-header svelte-1rgrtl6">GRAPHICS</div> <div class="settings-header svelte-1rgrtl6">CONTROLS</div> <div class="settings-header svelte-1rgrtl6">AUDIO</div> <div class="settings-header svelte-1rgrtl6" style="flex-basis: 20%; text-align: right;">PROFILE</div></div> <div id="ui-settings-body" class="svelte-1rgrtl6 ui-settings-hidden"><div id="ui-settings-body-content" class="svelte-1rgrtl6"><div class="settings-list"><div class="setting-section-header">general</div> <div class="setting-row" title=""><div class="setting-label">Camera mode</div> <div class="setting-element"><div class="enum-container svelte-71g5t7"><div class="enum-arrows svelte-71g5t7"><div class="enum-arrow svelte-71g5t7" style="text-align: left; opacity: 1;">◂</div> <div class="enum-arrow svelte-71g5t7" style="text-align: right; opacity: 1;">▸</div></div> First-person</div></div></div><div class="setting-row" title="Choose between overall distance travelled in Slow Roads, or the distance along this particular road"><div class="setting-label">Odometer mode</div> <div class="setting-element"><div class="enum-container svelte-71g5t7"><div class="enum-arrows svelte-71g5t7"><div class="enum-arrow svelte-71g5t7" style="text-align: left; opacity: 1;">◂</div> <div class="enum-arrow svelte-71g5t7" style="text-align: right; opacity: 1;">▸</div></div> Total distance</div></div></div><div class="setting-row" title="Which lane autodrive should use. For switching the vehicle interior, use the Vehicle config panel"><div class="setting-label">Drive lane</div> <div class="setting-element"><div class="enum-container svelte-71g5t7"><div class="enum-arrows svelte-71g5t7"><div class="enum-arrow svelte-71g5t7" style="text-align: left; opacity: 0;">◂</div> <div class="enum-arrow svelte-71g5t7" style="text-align: right; opacity: 1;">▸</div></div> Left</div></div></div><div class="setting-row" title="Auto will automatically set the appropriate width for the chosen road style"><div class="setting-label">Road width</div> <div class="setting-element"><div class="enum-container svelte-71g5t7"><div class="enum-arrows svelte-71g5t7"><div class="enum-arrow svelte-71g5t7" style="text-align: left; opacity: 0;">◂</div> <div class="enum-arrow svelte-71g5t7" style="text-align: right; opacity: 1;">▸</div></div> Auto</div></div></div><div class="setting-row" title="Enable to have the game pause when in another window"><div class="setting-label">Pause while tabbed out</div> <div class="setting-element"><div class="bool-box svelte-1ik2n8h"><div class="bool-fill svelte-1ik2n8h"></div></div></div></div><div class="setting-row" title="Displays the touchscreen controls and hides some settings"><div class="setting-label">Touchscreen mode</div> <div class="setting-element"><div class="bool-box svelte-1ik2n8h"><div class="bool-fill svelte-1ik2n8h"></div></div></div></div><div class="setting-row" title="Toggle fullscreen"><div class="setting-label">Fullscreen</div> <div class="setting-element"><div class="bool-box svelte-1ik2n8h"><div class="bool-fill svelte-1ik2n8h"></div></div></div></div><div class="setting-section-header">ui</div> <div class="setting-row" title=""><div class="setting-label">Units</div> <div class="setting-element"><div class="enum-container svelte-71g5t7"><div class="enum-arrows svelte-71g5t7"><div class="enum-arrow svelte-71g5t7" style="text-align: left; opacity: 1;">◂</div> <div class="enum-arrow svelte-71g5t7" style="text-align: right; opacity: 1;">▸</div></div> Miles</div></div></div><div class="setting-row" title=""><div class="setting-label">Show upcoming road</div> <div class="setting-element"><div class="enum-container svelte-71g5t7"><div class="enum-arrows svelte-71g5t7"><div class="enum-arrow svelte-71g5t7" style="text-align: left; opacity: 1;">◂</div> <div class="enum-arrow svelte-71g5t7" style="text-align: right; opacity: 1;">▸</div></div> Manual drive only</div></div></div><div class="setting-row" title=""><div class="setting-label">Hide UI</div> <div class="setting-element"><div class="bool-box svelte-1ik2n8h"><div class="bool-fill svelte-1ik2n8h"></div></div></div></div><div class="setting-section-header">vehicle</div> <div class="setting-row" title="Narrows the maximum steer angle as speed increases"><div class="setting-label">Top speed steer limiter</div> <div class="setting-element"><div class="slider-cont svelte-9omzwl"><input class="slider-val svelte-9omzwl" type="number"> <div class="slider-track svelte-9omzwl"><div class="slider-left svelte-9omzwl" style="flex-basis: 83.3333%; margin-right: 4px;"></div> <div class="slider-handle svelte-9omzwl"></div> <div class="slider-right svelte-9omzwl" style="flex-basis: 16.6667%; margin-left: 4px;"></div></div></div></div></div><div class="setting-row" title="Applies a multiplier to the vehicle speed"><div class="setting-label">Speed factor</div> <div class="setting-element"><div class="slider-cont svelte-9omzwl"><input class="slider-val svelte-9omzwl" type="number"> <div class="slider-track svelte-9omzwl"><div class="slider-left svelte-9omzwl" style="flex-basis: 33.3333%; margin-right: 4px;"></div> <div class="slider-handle svelte-9omzwl"></div> <div class="slider-right svelte-9omzwl" style="flex-basis: 66.6667%; margin-left: 4px;"></div></div></div></div></div><div class="setting-row" title="Alters the vehicle's grip"><div class="setting-label">Grip factor</div> <div class="setting-element"><div class="slider-cont svelte-9omzwl"><input class="slider-val svelte-9omzwl" type="number"> <div class="slider-track svelte-9omzwl"><div class="slider-left svelte-9omzwl" style="flex-basis: 44.4444%; margin-right: 4px;"></div> <div class="slider-handle svelte-9omzwl"></div> <div class="slider-right svelte-9omzwl" style="flex-basis: 55.5556%; margin-left: 4px;"></div></div></div></div></div><div class="setting-section-header">interior</div> <div class="setting-row" title="Toggles steering wheel visibility on interior view"><div class="setting-label">Show steering wheel</div> <div class="setting-element"><div class="bool-box svelte-1ik2n8h"><div class="bool-fill svelte-1ik2n8h bool-filled"></div></div></div></div><div class="setting-row" title="How far the wheel can turn, in degrees"><div class="setting-label">Max wheel rotation</div> <div class="setting-element"><div class="slider-cont svelte-9omzwl"><input class="slider-val svelte-9omzwl" type="number"> <div class="slider-track svelte-9omzwl"><div class="slider-left svelte-9omzwl" style="flex-basis: 40%; margin-right: 4px;"></div> <div class="slider-handle svelte-9omzwl"></div> <div class="slider-right svelte-9omzwl" style="flex-basis: 60%; margin-left: 4px;"></div></div></div></div></div><div class="setting-row" title="Adjusts the forward/back position of the interior camera"><div class="setting-label">Seat position</div> <div class="setting-element"><div class="slider-cont svelte-9omzwl"><input class="slider-val svelte-9omzwl" type="number"> <div class="slider-track svelte-9omzwl"><div class="slider-left svelte-9omzwl" style="flex-basis: 50%; margin-right: 4px;"></div> <div class="slider-handle svelte-9omzwl"></div> <div class="slider-right svelte-9omzwl" style="flex-basis: 50%; margin-left: 4px;"></div></div></div></div></div><div class="setting-row" title="Adjusts the height of the interior camera"><div class="setting-label">Seat height</div> <div class="setting-element"><div class="slider-cont svelte-9omzwl"><input class="slider-val svelte-9omzwl" type="number"> <div class="slider-track svelte-9omzwl"><div class="slider-left svelte-9omzwl" style="flex-basis: 50%; margin-right: 4px;"></div> <div class="slider-handle svelte-9omzwl"></div> <div class="slider-right svelte-9omzwl" style="flex-basis: 50%; margin-left: 4px;"></div></div></div></div></div><div class="setting-section-header">misc</div> <div class="setting-row" title=""><div class="setting-label">Show debug overlay</div> <div class="setting-element"><div class="bool-box svelte-1ik2n8h"><div class="bool-fill svelte-1ik2n8h"></div></div></div></div></div></div></div> <div id="ui-settings-footer" class="svelte-1rgrtl6 ui-settings-hidden"><div class="ui-btn ui-btn-active" style="background: none; border-color: var(--sr-primary-50); color: var(--sr-primary); line-height: 1rem; font-size: 0.8rem;">COPY DEBUG LOG</div>  <div class="ui-btn ui-btn-active" style="line-height: 1rem; font-size: 0.8rem;">CLOSE</div></div></div>  <div id="ui-settings-bar" class="svelte-1rgrtl6"><a id="ui-settings-steam" target="_blank" rel="noopener noreferrer" href="https://store.steampowered.com/app/3431300/Slow_Roads/" alt="" class="svelte-1rgrtl6">WISHLIST
+        <img id="ui-settings-steam-icon" src="/img/icon_steam_white.svg" alt="" class="svelte-1rgrtl6"></a> <div class="audio-control svelte-1hs4ew6"><img class="ui-settings-bar-icon" src="/img/ico_volume_on.svg"> </div> <img class="ui-settings-bar-icon svelte-1rgrtl6" src="/img/ico_settings.svg"></div>   <div><div class="conf-mouseover svelte-101odes"></div> <div class="conf-main svelte-101odes"><div class="conf-header svelte-101odes"><div class="conf-tab-header svelte-101odes"><div class="conf-tab-header-label svelte-101odes" style="opacity: 1;"><span class="svelte-101odes invisible">-</span> WORLD <span class="svelte-101odes invisible">-</span></div> <div class="conf-tab-pip svelte-101odes"></div></div> <div class="conf-tab-header svelte-101odes"><div class="conf-tab-header-label svelte-101odes" style="opacity: 1;"><span class="svelte-101odes invisible">-</span> STYLE <span class="svelte-101odes invisible">-</span></div> <div class="conf-tab-pip svelte-101odes"></div></div> <div class="conf-tab-header svelte-101odes"><div class="conf-tab-header-label svelte-101odes" style="opacity: 1;"><span class="svelte-101odes invisible">-</span> VEHICLE <span class="svelte-101odes invisible">-</span></div> <div class="conf-tab-pip svelte-101odes"></div></div></div> <div class="conf-body svelte-101odes"><div class="wld-main svelte-101odes"><div class="wld-options svelte-101odes"><div class="wld-option svelte-101odes"><div class="wld-option-label svelte-101odes">LOCATION</div> <div class="wld-option-tile svelte-101odes"><div class="wld-option-arrows svelte-101odes"><div class="wld-option-arrow svelte-101odes" style="text-align: left;">◂</div> <div class="wld-option-arrow svelte-101odes" style="text-align: right;">▸</div></div> HILLS</div></div> <div class="wld-option svelte-101odes"><div class="wld-option-label svelte-101odes">ROAD STYLE</div> <div class="wld-option-tile svelte-101odes"><div class="wld-option-arrows svelte-101odes"><div class="wld-option-arrow svelte-101odes" style="text-align: left;">◂</div> <div class="wld-option-arrow svelte-101odes" style="text-align: right;">▸</div></div> NORMAL</div></div> <div class="wld-option svelte-101odes"><div class="wld-option-label svelte-101odes">SEED<span class="wld-option-label-btn svelte-101odes">randomise</span></div> <input type="text" maxlength="16" onkeydown="return /[a-z]|[0-9]/i.test(event.key)" class="wld-option-tile wld-option-seed svelte-101odes"> <div class="seed-warn svelte-101odes"></div></div></div> <div class="wld-generate svelte-101odes"><div class="wld-hash-box svelte-101odes">CODE:
+                        <input type="text" disable="false" maxlength="26" class="wld-hash svelte-101odes" id="A2-8e9f650a@1.00" key="A2-8e9f650a@1.00"> <div class="wld-hash-copy svelte-101odes">COPY</div> </div> <div class="ui-btn">GENERATE</div></div></div></div></div></div>    <div id="upcoming-container" class="svelte-1wl5x4o upcoming-bottom" style="opacity: 1;"><svg viewBox="0 0 160 160" width="100%" height="100%"><g transform="translate(80 96) scale(-0.5 -0.5)"><polyline points="650.993 9727.19 651.553 9727.47 652.112 9727.74 652.672 9728.02 653.232 9728.3 653.791 9728.58 654.351 9728.86 654.91 9729.14 655.469 9729.42 656.029 9729.69 656.589 9729.97 657.148 9730.25 657.708 9730.53 658.267 9730.81 658.826 9731.09 659.386 9731.37 659.945 9731.64 660.498 9731.94 661.051 9732.23 661.603 9732.52 662.156 9732.81 662.709 9733.1 663.261 9733.4 663.814 9733.69 664.367 9733.98 664.919 9734.27 665.472 9734.56 666.024 9734.86 666.577 9735.15 667.13 9735.44 667.682 9735.73 668.235 9736.02 668.788 9736.31 669.31 9736.66 669.833 9737 670.355 9737.34 670.878 9737.69 671.401 9738.03 671.923 9738.37 672.446 9738.71 672.968 9739.06 673.491 9739.4 674.013 9739.74 674.536 9740.09 675.059 9740.43 675.581 9740.77 676.104 9741.11 676.626 9741.46 677.149 9741.8 677.563 9742.27 677.978 9742.74 678.392 9743.2 678.807 9743.67 679.221 9744.14 679.636 9744.61 680.05 9745.08 680.465 9745.54 680.879 9746.01 681.294 9746.48 681.708 9746.95 682.123 9747.41 682.537 9747.88 682.952 9748.35 683.366 9748.82 683.781 9749.29 684.107 9749.82 684.434 9750.35 684.761 9750.88 685.088 9751.42 685.415 9751.95 685.742 9752.48 686.069 9753.01 686.396 9753.55 686.722 9754.08 687.049 9754.61 687.376 9755.14 687.703 9755.68 688.03 9756.21 688.357 9756.74 688.684 9757.28 689.011 9757.81 689.344 9758.34 689.676 9758.87 690.009 9759.4 690.342 9759.92 690.675 9760.45 691.008 9760.98 691.341 9761.51 691.674 9762.04 692.007 9762.57 692.34 9763.1 692.673 9763.63 693.006 9764.16 693.339 9764.68 693.671 9765.21 694.004 9765.74 694.337 9766.27 694.704 9766.78 695.07 9767.28 695.436 9767.79 695.803 9768.3 696.169 9768.8 696.535 9769.31 696.902 9769.82 697.268 9770.32 697.635 9770.83 698.001 9771.33 698.367 9771.84 698.734 9772.35 699.1 9772.85 699.466 9773.36 699.833 9773.87 700.199 9774.37 700.614 9774.84 701.029 9775.31 701.444 9775.78 701.859 9776.24 702.274 9776.71 702.689 9777.18 703.104 9777.64 703.519 9778.11 703.934 9778.58 704.348 9779.05 704.763 9779.51 705.178 9779.98 705.593 9780.45 706.008 9780.92 706.423 9781.38 706.838 9781.85 707.313 9782.26 707.788 9782.66 708.263 9783.07 708.738 9783.48 709.214 9783.88 709.689 9784.29 710.164 9784.69 710.639 9785.1 711.114 9785.51 711.589 9785.91 712.064 9786.32 712.539 9786.72 713.014 9787.13 713.49 9787.54 713.965 9787.94 714.44 9788.35 714.957 9788.7 715.475 9789.05 715.992 9789.4 716.51 9789.75 717.027 9790.1 717.544 9790.45 718.062 9790.8 718.579 9791.15 719.097 9791.5 719.614 9791.85 720.132 9792.2 720.649 9792.55 721.167 9792.91 721.684 9793.26 722.202 9793.61 722.719 9793.96 723.266 9794.26 723.813 9794.56 724.361 9794.86 724.908 9795.17 725.455 9795.47 726.002 9795.77 726.549 9796.07 727.096 9796.37 727.644 9796.68 728.191 9796.98 728.738 9797.28 729.285 9797.58 729.832 9797.88 730.379 9798.19 730.927 9798.49 731.474 9798.79 732.05 9799.03 732.627 9799.27 733.204 9799.51 733.78 9799.75 734.357 9800 734.933 9800.24 735.51 9800.48 736.087 9800.72 736.663 9800.96 737.24 9801.2 737.816 9801.44 738.393 9801.68 738.97 9801.92 739.546 9802.17 740.123 9802.41 740.699 9802.65 741.305 9802.8 741.911 9802.96 742.517 9803.11 743.122 9803.26 743.728 9803.42 744.334 9803.57 744.94 9803.72 745.546 9803.88 746.151 9804.03 746.757 9804.19 747.363 9804.34 747.969 9804.49 748.574 9804.65 749.18 9804.8 749.786 9804.96 750.392 9805.11 751.011 9805.2 751.629 9805.29 752.248 9805.37 752.867 9805.46 753.486 9805.55 754.105 9805.64 754.723 9805.72 755.342 9805.81 755.961 9805.9 756.58 9805.99 757.199 9806.08 757.818 9806.16 758.436 9806.25 759.055 9806.34 759.674 9806.43 760.293 9806.51 760.917 9806.55 761.54 9806.59 762.164 9806.63 762.788 9806.67 763.412 9806.7 764.036 9806.74 764.66 9806.78 765.284 9806.82 765.907 9806.85 766.531 9806.89 767.155 9806.93 767.779 9806.97 768.403 9807.01 769.027 9807.04 769.651 9807.08 770.274 9807.12 770.899 9807.11 771.524 9807.09 772.149 9807.08 772.774 9807.07 773.399 9807.05 774.023 9807.04 774.648 9807.03 775.273 9807.01 775.898 9807 776.523 9806.99 777.148 9806.97 777.773 9806.96 778.398 9806.95 779.022 9806.93 779.647 9806.92" transform="rotate(64.58119305995712) translate(-650.9934933052915 -9727.187377843364)" stroke="var(--sr-white)" stroke-width="10" stroke-linecap="round" fill="none" style="filter: drop-shadow( 0px 0px 6px var(--sr-white) );"></polyline><circle fill="var(--sr-primary)" r="2" cx="650.9934933052915" cy="9727.187377843364" transform="rotate(64.58119305995712) translate(-650.9934933052915 -9727.187377843364)"></circle></g></svg></div> <div id="dash-autodrive" class="svelte-1sjsrid"><div class="dash-autodrive-bracket svelte-1sjsrid" style="border-right: none;"></div> <div class="dash-autodrive-text svelte-1sjsrid">AUTODRIVE</div> <div class="dash-autodrive-bracket svelte-1sjsrid" style="border-left: none;"></div></div> <div class="stat speed svelte-157999b stat-bottom"><div class="sc-main svelte-157999b"><img class="sc-icon svelte-157999b" alt="" src="/img/ico_lock_open.svg"> <div class="sc-val svelte-157999b sc-hidden"><div class="sc-arrow sc-arrow-up svelte-157999b sc-hidden">▲</div> 80 <div class="sc-arrow sc-arrow-down svelte-157999b sc-hidden">▼</div></div> <div class="sc-label svelte-157999b sc-hidden"><div class="sc-arrow sc-arrow-up svelte-157999b">▲</div> CRUISE <div class="sc-arrow sc-arrow-down svelte-157999b">▼</div></div></div> <div class="stat-value svelte-157999b"> 0.0</div> <div class="stat-unit svelte-157999b">MILES PER HOUR</div></div> <div class="stat distance svelte-157999b stat-bottom"><div class="stat-value svelte-157999b">28.6</div> <div class="stat-unit svelte-157999b">MILES</div></div> <div class="stat-underlay svelte-157999b"></div> </div> <canvas class="svelte-157999b" data-engine="three.js r155" width="1363" height="911" style="width: 1363px; height: 911px; cursor: none;"></canvas></div> <div id="svelte-announcer" aria-live="assertive" aria-atomic="true" style="position: absolute; left: 0px; top: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); overflow: hidden; white-space: nowrap; width: 1px; height: 1px;"></div></div>
+	
+<div style="position: fixed; top: 0px; left: 282px; cursor: pointer; opacity: 0.9; z-index: 9999; display: none;"><canvas width="80" height="48" style="width: 80px; height: 48px; display: block;"></canvas><canvas width="80" height="48" style="width: 80px; height: 48px; display: none;"></canvas><canvas width="80" height="48" style="width: 80px; height: 48px; display: none;"></canvas></div></body></html>
